@@ -1,0 +1,49 @@
+.heading {
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 5px grey;
+    font-size: 23px;
+    background: grey;
+}
+
+.heading_div {
+    float: none;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.heading_div2 {
+    font-size: 18px;
+}
+
+.heading_div2:hover {
+    background: greenyellow;
+    color: red;
+    border: 2px solid green;
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px greenyellow;
+}
+
+#obj_n:hover {
+    background: red;
+    color: yellow;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px red;
+}
+
+#obj_a:hover {
+    background: cyan;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px cyan;
+}
+
+#camera {
+    box-shadow: 5px 5px 18px white;
+}
