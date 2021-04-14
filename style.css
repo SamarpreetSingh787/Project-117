@@ -17,33 +17,41 @@
 }
 
 .heading_div2 {
-    font-size: 18px;
+      font-size: 18px;
+      box-shadow:5px 5px 5px grey;
+}
+     i{
+      visibility: hidden;
+    }
+    .heading_div2:hover i{
+      visibility: visible;
+    }
+    .heading_div2:hover {
+      background: greenyellow;
+      color: red;
+      border: 2px solid green;
+      border-radius: 10px;
+      box-shadow: 5px 5px 18px greenyellow;
+    }
+
+.result_para {
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
 }
 
-.heading_div2:hover {
-    background: greenyellow;
-    color: red;
-    border: 2px solid green;
-    border-radius: 10px;
-    box-shadow: 5px 5px 18px greenyellow;
-}
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+ }
 
-#obj_n:hover {
-    background: red;
-    color: yellow;
-    border: 2px solid yellow;
-    border-radius: 10px;
-    box-shadow: 5px 5px 18px red;
-}
-
-#obj_a:hover {
-    background: cyan;
-    color: blue;
-    border: 2px solid blue;
-    border-radius: 10px;
-    box-shadow: 5px 5px 18px cyan;
-}
-
-#camera {
-    box-shadow: 5px 5px 18px white;
+canvas {
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 150px;
 }
